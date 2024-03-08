@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "content": "Wake up",
+      "important": false
+    },
+    {
+      "id": 2,
+      "content": "Eat",
+      "important": false
+    },
+    {
+      "id": 3,
+      "content": "Code",
+      "important": false
+    },
+    {
+      "id": 4,
+      "content": "Lunch",
+      "important": false
+    },
+    {
+      "id": 5,
+      "content": "Activity",
+      "important": false
+    }
+  ]
+}
