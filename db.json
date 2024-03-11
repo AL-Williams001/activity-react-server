@@ -2,27 +2,37 @@
   "notes": [
     {
       "id": 1,
-      "content": "Wake up",
+      "content": "Wake Up",
       "important": false
     },
     {
       "id": 2,
-      "content": "Eat",
-      "important": false
-    },
-    {
-      "id": 3,
       "content": "Code",
       "important": false
     },
     {
+      "id": 3,
+      "content": "Eat",
+      "important": false
+    },
+    {
       "id": 4,
-      "content": "Lunch",
+      "content": "Rest",
       "important": false
     },
     {
       "id": 5,
-      "content": "Activity",
+      "content": "Back to Coding",
+      "important": false
+    },
+    {
+      "id": 6,
+      "content": "Dinner",
+      "important": false
+    },
+    {
+      "id": 7,
+      "content": "Sleep",
       "important": false
     }
   ]

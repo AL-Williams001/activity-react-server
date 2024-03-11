@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import noteService from "../services/notes";
 
 const NoteForm = ({ notes, setNotes }) => {
   const [newNote, setNewNote] = useState("");
@@ -13,8 +13,8 @@ const NoteForm = ({ notes, setNotes }) => {
       id: notes.length + 1,
     };
 
-    axios
-      .post("http://localhost:3001/notes", noteObject)
+    noteService
+      .createNote(noteObject)
       .then((response) => {
         setNotes([...notes, response.data]);
         setNewNote("");
